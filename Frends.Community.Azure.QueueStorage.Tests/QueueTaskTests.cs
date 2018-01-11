@@ -6,6 +6,7 @@ using Frends.Community.Azure.Queue.Tests;
 namespace Frends.Community.Azure.QueueStorage.Tests
 {
     [TestFixture]
+    [Ignore("Unit tests requires Azure Storage Emulator running")]
     public class QueueTaskTests
     {
         private QueueConnectionProperties _queueConnectionProperties;
