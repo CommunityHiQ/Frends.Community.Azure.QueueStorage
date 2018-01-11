@@ -67,7 +67,10 @@ namespace Frends.Community.Azure.QueueStorage
 
                 var peekedMessage = await queue.PeekMessageAsync();
 
-                return new QueuePeekMessageResult { Success = true, Content = peekedMessage.AsString };
+                if (peekedMessage != null)
+                    return new QueuePeekMessageResult { Success = true, Content = peekedMessage.AsString };
+                else
+                    return new QueuePeekMessageResult { Success = false, Info = $"Message not found in queue '{connection.QueueName}'" };
 
             }
             catch(Exception ex)
