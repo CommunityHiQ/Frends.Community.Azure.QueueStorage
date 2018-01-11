@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Frends.Community.Azure.QueueStorage</id>
+    <version>0.0.3</version>
+    <title>Frends Community Azure Storage Queue</title>
+    <authors>HiQ Finland</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Task Azure Storage Queue operations.</description>
+    <summary />
+    <dependencies>
+      <dependency id="WindowsAzure.Storage" version="8.7.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="..\Frends.Community.Azure.QueueStorage\bin\release\Frends.Community.Azure.QueueStorage.dll" target="lib\net452\Frends.Community.Azure.QueueStorage.dll" />
+    <file src="..\Frends.Community.Azure.QueueStorage\bin\release\Frends.Community.Azure.QueueStorage.xml" target="lib\net452\Frends.Community.Azure.QueueStorage.xml" />
+    <file src="..\Frends.Community.Azure.QueueStorage\FrendsTaskMetadata.json" target="FrendsTaskMetadata.json"/>
+  </files>
+</package>
