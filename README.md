@@ -143,7 +143,7 @@ Clone a copy of the repo
 
 Restore dependencies
 
-`nuget restore frends.community.sftp`
+`nuget restore Frends.Community.Azure.QueueStorage`
 
 Rebuild the project
 
