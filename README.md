@@ -149,7 +149,7 @@ Rebuild the project
 
 Run Tests with nunit3. Tests can be found under
 
-`Frends.Community.Sftp.Tests\bin\Release\Frends.Community.Azure.QueueStorage.Tests.dll`
+`Frends.Community.Azure.QueueStorage.Tests\bin\Release\Frends.Community.Azure.QueueStorage.Tests.dll`
 
 Create a nuget package
 
