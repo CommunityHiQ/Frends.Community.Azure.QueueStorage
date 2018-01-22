@@ -136,7 +136,6 @@ Peeks at the message in front of the queue and returns its content.
 | Content | string | Content of the message in front of the queue | 'some content.' |
 
 # Building
-You need a valid licence of Rebex.Net
 
 Clone a copy of the repo
 
