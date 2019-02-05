@@ -171,3 +171,4 @@ NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 | Version | Changes |
 | ----- | ----- |
 | 1.0.0 | Initial version of Azure QueueStorage tasks |
+| 1.3.0 | Dependency version fixes |
