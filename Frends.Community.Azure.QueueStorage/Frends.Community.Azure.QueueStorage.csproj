@@ -1,16 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net471;netstandard2.0</TargetFrameworks>
+        <TargetFrameworks>net471;netstandard2.0;net6.0;net8.0</TargetFrameworks>
 		<Title>Frends Community Azure Storage Queue</Title>
         <Description>Task for Azure Storage Queue operations</Description>   
 		<Authors>HiQ Finland</Authors>
+
 		<Copyright>HiQ Finland</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/CommunityHiQ/Frends.Community.Azure.QueueStorage</PackageProjectUrl>
 		<IncludeSource>true</IncludeSource>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <Version>1.7.0</Version>
+        <Version>1.4.2</Version>
     </PropertyGroup>
 
     <ItemGroup>

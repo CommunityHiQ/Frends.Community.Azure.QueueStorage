@@ -172,3 +172,4 @@ NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 | ----- | ----- |
 | 1.0.0 | Initial version of Azure QueueStorage tasks |
 | 1.3.0 | Dependency version fixes |
+| 1.4.2 | Added support for .NET 6.0 and 8.0 |
