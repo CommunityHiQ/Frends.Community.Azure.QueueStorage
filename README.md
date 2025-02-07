@@ -143,19 +143,20 @@ Clone a copy of the repo
 
 Restore dependencies
 
-`nuget restore Frends.Community.Azure.QueueStorage`
+`dotnet restore Frends.Community.Azure.QueueStorage`
 
 Rebuild the project
 
-Run Tests with nunit3. Tests can be found under
+Run Tests with dotnet test. Tests can be found under
 
-`Frends.Community.Azure.QueueStorage.Tests\bin\Release\Frends.Community.Azure.QueueStorage.Tests.dll`
+`dotnet test`
 
 Create a nuget package
 
-`nuget pack nuspec/Frends.Community.Azure.QueueStorage.nuspec`
+`dotnet pack -c Release`
 
 # Contributing
+
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
 1. Fork the repo on GitHub
